@@ -1,0 +1,94 @@
+
+body {
+	margin: 30px;
+	/*background-image: url(templates/images/pexels-photo.jpeg);*/
+}
+th, td {
+	border: 1.5px solid black; 
+	border-collapse: collapse;
+	background-color: lightgrey;   
+	padding: 5px;  	
+	text-align: center;
+}
+table {
+	border: 2px solid black; 
+	border-collapse: collapse;
+	margin-left: 40px
+	/*width: 50%;*/
+}
+.td1 { 
+	font-weight: bolder;
+	text-align: left;
+}
+.covid{
+	font-weight: bolder;
+	color: darkred;
+}
+
+a:hover{ color: red; }
+
+p::selection {color: red; background-color: yellow;}
+
+#comment { background-color: lime }
+#covid {background-color: khaki}
+
+.ctable {
+	font-weight: bolder;
+}
+
+.foot::before {
+	content: "\21d2 Click Here: ";
+	font-weight: bold;
+			}
+
+
+.bimage{
+/*	background-image: url(templates/images/pexels-photo.jpeg);*/
+	background-size: 100% 100%
+}
+.himage{
+	background-image: url(templates/images/himage.jpeg);
+/*	width: 100%
+	height: 200px;*/
+	background-size: cover
+}
+
+input[type=text] {
+	background-color: lightyellow
+
+}
+
+/*#btn0{ 
+	width: 200px;
+	height: 50px;
+	font-size: 16px; 
+	border-radius: 10px;
+	}
+.btn1 {background-color: #AFE313 }
+.btn2 {background-color: #FD3A4A}
+.btn3 {background-color: #C46210;
+color: black}*/
+
+button:hover {
+	background-color: lightblue}
+
+@media print {
+.screen-only { 
+	display: none }
+}
+
+@media (min-width: 1000px) {
+body {
+	background-color: #e1e8f0;}
+}
+
+@media (max-width: 999px) {
+body {
+	background-color: #553D67;
+	}
+footer a {
+	color: white;
+	}
+.header_links a { color: white }
+}
+

@@ -1,0 +1,56 @@
+<DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Covid-Kenya</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="templates/css/styles_scss.css"><!-- 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+<style>
+body {
+	background-image: url(templates/images/pexels-photo-1103970.jpeg);
+	background-size: 100% 100%
+}
+</style>
+<!-- <img src="templates/images/covid_virus1.jpg" ALT="some text"> -->
+</head>
+
+<body>
+
+<h2 align="center">Corona Virus (Covid-19) Statistics as of 28-Apr-2020</h2> <div id="time" align="right" style="font-weight: bold;">Current DateTime: </div>
+
+<script>
+	var today = new Date();
+	var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+	var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+	var dateTime = date+' '+time;
+	document.getElementById("time").innerHTML = dateTime;
+</script>
+
+<div class="grid">
+	<div class="grid-item" id="arrow">Kenya<span></span></div>
+	<div class="grid-item">372<br><span>Confirmed</span></div>
+	<div class="grid-item" id="xx">14<br><span>Dead</span></div>
+	<div class="grid-item" id="rr">124<br><span>Recovered</span></div>
+	<div class="grid-item" id="arrow">World<span></span></div>
+	<div class="grid-item">3,099,395<br><span>World Confirmed</span></div>
+	<div class="grid-item" id="xx">213,621<br><span>World Dead</span></div>
+	<div class="grid-item" id="rr">943,940<br><span>World Recovered</span></div>
+
+</div>
+
+<p align="left">
+	<a href="https://www.kenyans.co.ke/coronavirus">Kenya Corona Virus Updates</a> <br>
+	<a href="https://www.worldometers.info/coronavirus/">World Corona Virus Statistics</a> 
+
+</p>
+</body>
+<footer>
+      <p align="center">
+        <a href="index.html" class="foot">Home | </a>
+        <a href="covid19.html"> Covid-19 |</a>
+        <a href="covid19a.html"> Covid-19 in Healthcare </a>
+    </p>
+</footer>
+</html>

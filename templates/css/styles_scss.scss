@@ -1,0 +1,51 @@
+$fbold: bold;
+
+.grid{
+	background-color: #787878;
+	display: grid;
+	padding: 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+
+.grid-item{
+	background-color: white;
+	font-size: 28px;
+	padding: 20px;
+	text-align: center;
+	font-weight: bolder;
+
+
+span {
+	font-size: 16px;
+	color: #6a5acd;
+	font-weight: $fbold;
+}
+
+}
+#xx{color: red;
+}
+#rr{color: #66ff00;}
+
+#arrow::after {
+	content: "\21d2";
+	font-weight: $fbold;
+			}
+}
+
+#btn0{ 
+	width: 200px;
+	height: 50px;
+	font-size: 16px; 
+	border-radius: 10px;
+	}
+.btn1 { @extend #btn0; 
+		background-color: #AFE313 }
+.btn2 {
+	@extend #btn0; 
+	background-color: #FD3A4A}
+.btn3 {
+	@extend #btn0; 
+	background-color: #C46210;
+	color: black;
+	}

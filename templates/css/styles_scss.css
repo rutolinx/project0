@@ -1,0 +1,42 @@
+.grid {
+  background-color: #787878;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: auto auto auto auto; }
+  .grid .grid-item {
+    background-color: white;
+    font-size: 28px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder; }
+    .grid .grid-item span {
+      font-size: 16px;
+      color: #6a5acd;
+      font-weight: bold; }
+  .grid #xx {
+    color: red; }
+  .grid #rr {
+    color: #66ff00; }
+  .grid #arrow::after {
+    content: "\21d2";
+    font-weight: bold; }
+
+#btn0, .btn1, .btn2, .btn3 {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 10px; }
+
+.btn1 {
+  background-color: #AFE313; }
+
+.btn2 {
+  background-color: #FD3A4A; }
+
+.btn3 {
+  background-color: #C46210;
+  color: black; }
+
+/*# sourceMappingURL=styles_scss.css.map */
